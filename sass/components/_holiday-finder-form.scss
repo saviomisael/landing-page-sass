@@ -1,0 +1,50 @@
+.holiday-finder-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "title ." "location activity" "grade date" "btn .";
+  grid-template-rows: auto;
+  gap: 2rem;
+
+  & > .title {
+    grid-area: title;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 3.2rem;
+      transform: translateY(1.5rem);
+      border-bottom: 0.2rem solid currentColor;
+    }
+  }
+
+  & > .input {
+    @include font-inter;
+
+    font-size: 1.5rem;
+    color: $color-black-light;
+    border-color: $color-grey;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+  }
+
+  & > .input[name="location"] {
+    grid-area: location;
+  }
+
+  & > .input[name="activity"] {
+    grid-area: activity;
+  }
+
+  & > .input[name="grade"] {
+    grid-area: grade;
+  }
+
+  & > .input[name="date"] {
+    grid-area: date;
+  }
+
+  & > [class^="btn"] {
+    grid-area: btn;
+    width: 80%;
+  }
+}
