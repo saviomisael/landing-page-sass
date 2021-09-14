@@ -1,70 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thousand Sunny</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@300;400&family=Playfair+Display:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <header class="header-wrapper">
-      <div class="top">
-        <img src="img/logo.svg" alt="logo thousand sunny" class="logo-box" />
 
-        <nav class="navigation-block">
-            <a href="#" class="item -active">Home</a>
-            <a href="#" class="item">Destinations</a>
-            <a href="#" class="item">About</a>
-            <a href="#" class="item">Partner</a>
-            <a href="#" class="btn-box -empty">Login</a>
-            <a href="#" class="btn-box">Register</a>
-          </ul>
-        </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thousand Sunny</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@300;400&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <header class="header-wrapper">
+    <div class="top">
+      <img src="img/logo.svg" alt="logo thousand sunny" class="logo-box" />
+
+      <nav class="navigation-block">
+        <a href="#" class="item -active">Home</a>
+        <a href="#" class="item">Destinations</a>
+        <a href="#" class="item">About</a>
+        <a href="#" class="item">Partner</a>
+        <a href="#" class="btn-box -empty">Login</a>
+        <a href="#" class="btn-box">Register</a>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="main _margin-top-medium">
+      <div>
+        <h1>Explore and Travel</h1>
+
+        <form action="#" class="holiday-finder-form">
+          <h3 class="title">Holiday finder</h3>
+
+          <div class="select-wrapper location">
+            <select name="location" id="location" class="select">
+              <option value="">Location</option>
+            </select>
+          </div>
+
+          <div class="select-wrapper activity">
+            <select name="activity" id="activity" class="select">
+              <option value="">Activity</option>
+            </select>
+          </div>
+
+          <div class="select-wrapper grade">
+            <select name="grade" id="grade" class="select">
+              <option value="">Grade</option>
+            </select>
+          </div>
+
+          <div class="select-wrapper date">
+            <select name="date" id="date" class="select">
+              <option value="">Date</option>
+            </select>
+          </div>
+
+          <button class="btn-box margin-top-small" type="button">Explore</button>
+        </form>
       </div>
+      <img src="img/thousand-011.png" alt="man walking with planets in the background">
+    </div>
+  </header>
 
-      <div class="main _margin-top-medium">
-        <div>
-          <h1>Explore and Travel</h1>
+  <main class="content-wrapper">
+    <section class="section-intro">
+      <img src="img/thousand-021.png" alt="A woman in the air with balloons in the background.">
 
-          <form action="#" class="holiday-finder-form">
-            <h3 class="title">Holiday finder</h3>
+      <div class="right">
+        <h2>A new way to explore the world</h2>
 
-            <div class="select-wrapper location">
-              <select name="location" id="location" class="select">
-                <option value="">Location</option>
-              </select>
-            </div>
+        <p>For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect
+          trip, but now, they can also let Lonely Planet Experiences lead the way</p>
 
-            <div class="select-wrapper activity">
-              <select name="activity" id="activity" class="select">
-                <option value="">Activity</option>
-              </select>
-            </div>
-
-            <div class="select-wrapper grade">
-              <select name="grade" id="grade" class="select">
-                <option value="">Grade</option>
-              </select>
-            </div>
-
-            <div class="select-wrapper date">
-              <select name="date" id="date" class="select">
-                <option value="">Date</option>
-              </select>
-            </div>
-
-            <button class="btn-box margin-top-small" type="button">Explore</button>
-          </form>
-        </div>
-        <img src="img/thousand-011.png" alt="man walking with planets in the background">
+        <button type="button" class="btn-box">Learn more</button>
       </div>
-    </header>
-  </body>
+    </section>
+  </main>
+</body>
+
 </html>
