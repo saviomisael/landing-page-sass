@@ -27,19 +27,19 @@
     border-radius: 0.5rem;
   }
 
-  & > .input[name="location"] {
+  & > .location {
     grid-area: location;
   }
 
-  & > .input[name="activity"] {
+  & > .activity {
     grid-area: activity;
   }
 
-  & > .input[name="grade"] {
+  & > .grade {
     grid-area: grade;
   }
 
-  & > .input[name="date"] {
+  & > .date {
     grid-area: date;
   }
 
