@@ -1,0 +1,7 @@
+p {
+  @include font-mulish;
+
+  font-size: 1.7rem;
+  font-weight: 300;
+  color: $color-grey-dark;
+}
