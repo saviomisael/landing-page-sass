@@ -1,4 +1,5 @@
 h1,
+h2,
 h3 {
   color: $color-black;
 }
@@ -8,6 +9,13 @@ h1 {
 
   font-size: 6.4rem;
   font-weight: 700;
+}
+
+h2 {
+  @include font-playfair-display;
+
+  font-size: 3.6rem;
+  font-weight: 500;
 }
 
 h3 {
