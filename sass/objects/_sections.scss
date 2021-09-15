@@ -1,0 +1,12 @@
+.section-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 11rem;
+  padding-left: 5rem;
+
+  & > .right {
+    flex-basis: 37%;
+  }
+}
