@@ -15,7 +15,9 @@
 }
 
 .section-destinations {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5.6rem;
 
   & > .top,
   & > .main {
