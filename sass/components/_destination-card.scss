@@ -1,0 +1,12 @@
+.destination-card {
+  & > .image {
+    position: relative;
+    margin: 0;
+
+    & > .caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
