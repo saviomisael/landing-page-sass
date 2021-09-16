@@ -16,10 +16,10 @@
   @include font-inter;
 
   font-size: 1.5rem;
-  color: $color-black-light;
   position: relative;
 
   & > .select {
+    color: $color-black-light;
     border-color: $color-grey;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
