@@ -1,0 +1,21 @@
+.destination-caption {
+  background-color: $color-white;
+  border-top-right-radius: 0.8rem;
+  padding-right: 3rem;
+
+  & > * {
+    @include font-inter;
+  }
+
+  & > .city {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: $color-black-dark-2;
+  }
+
+  & > .country {
+    font-size: 1.5rem;
+    color: $color-grey-dark-3;
+    margin-bottom: 0;
+  }
+}
