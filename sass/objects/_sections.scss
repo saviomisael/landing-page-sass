@@ -10,3 +10,17 @@
     flex-basis: 37%;
   }
 }
+
+.section-destinations {
+  width: 100%;
+
+  & > .top,
+  & > .main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & > .top {
+    align-items: center;
+  }
+}
