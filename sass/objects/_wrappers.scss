@@ -37,3 +37,10 @@
     right: 10%;
   }
 }
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26.2rem;
+  padding: 0 10.5rem;
+}
