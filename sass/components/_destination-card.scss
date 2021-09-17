@@ -3,9 +3,7 @@
     position: relative;
 
     & > .caption {
-      position: absolute;
-      bottom: 0;
-      left: 0;
+      @extend %absolute-bottom-left;
     }
   }
 }
