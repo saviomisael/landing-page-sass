@@ -1,0 +1,18 @@
+.testimonial-photo-card {
+  position: relative;
+
+  &::after {
+    @extend %absolute-bottom-left;
+
+    content: url(../img/plus.svg);
+    transform: translate(-1.45rem, 1.45rem);
+  }
+
+  &::before {
+    @extend %absolute-top-right;
+
+    content: url(../img/circle.svg);
+    transform: translate(1.45rem, -1.45rem);
+    z-index: -1;
+  }
+}
