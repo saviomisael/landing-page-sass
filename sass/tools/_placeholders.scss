@@ -1,11 +1,16 @@
-%absolute-bottom-left {
+%absolute-bottom {
   position: absolute;
   bottom: 0;
+}
+
+%absolute-bottom-left {
+  @extend %absolute-bottom;
+
   left: 0;
 }
 
 %absolute-bottom-right {
-  position: absolute;
-  bottom: 0;
+  @extend %absolute-bottom;
+
   right: 0;
 }
