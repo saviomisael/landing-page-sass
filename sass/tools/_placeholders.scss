@@ -1,5 +1,10 @@
-%absolute-bottom {
+%absolute {
   position: absolute;
+}
+
+%absolute-bottom {
+  @extend %absolute;
+
   bottom: 0;
 }
 
@@ -16,7 +21,8 @@
 }
 
 %absolute-top-right {
-  position: absolute;
+  @extend %absolute;
+
   top: 0;
   right: 0;
 }
