@@ -1,0 +1,29 @@
+.testimonial-caption {
+  @extend %absolute-bottom-right;
+
+  padding-left: 2rem;
+  padding-top: 1rem;
+  border-top-left-radius: 1rem;
+  display: flex;
+  gap: 2.2rem;
+  background-color: $color-white;
+
+  & > .icon {
+    filter: invert(0%) sepia(0%) saturate(28%) hue-rotate(51deg) brightness(95%)
+      contrast(106%);
+    border: 0.1rem solid $color-black-dark;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    transform: rotateZ(-90deg);
+
+    &.-grey {
+      filter: invert(81%) sepia(10%) saturate(12%) hue-rotate(316deg)
+        brightness(88%) contrast(89%);
+    }
+
+    &.-left {
+      transform: rotateZ(90deg);
+    }
+  }
+}
