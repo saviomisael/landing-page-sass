@@ -44,3 +44,15 @@
     row-gap: 2rem;
   }
 }
+
+.section-testimonials {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4.3rem;
+
+  & > .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
