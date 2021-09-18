@@ -16,6 +16,7 @@
     width: 4rem;
     height: 4rem;
     transform: rotateZ(-90deg);
+    cursor: pointer;
 
     &.-grey {
       filter: invert(81%) sepia(10%) saturate(12%) hue-rotate(316deg)
