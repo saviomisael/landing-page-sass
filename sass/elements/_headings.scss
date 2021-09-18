@@ -4,30 +4,33 @@ h5 {
   color: $color-black;
 }
 
-h1 {
+h1,
+h2 {
   @include font-playfair-display;
+}
 
+h3,
+h5 {
+  @include font-inter;
+}
+
+h1 {
   font-size: 6.4rem;
   font-weight: 700;
 }
 
 h2 {
-  @include font-playfair-display;
-
   font-size: 3.6rem;
   font-weight: 500;
   color: $color-black-dark;
 }
 
 h3 {
-  @include font-inter;
-
   font-size: 2.2rem;
   font-weight: 500;
 }
 
 h5 {
-  @include font-inter;
   font-size: 1.9rem;
   font-weight: 700;
 }
