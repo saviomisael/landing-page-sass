@@ -56,3 +56,14 @@
     justify-content: space-between;
   }
 }
+
+.section-trending-stories {
+  display: flex;
+  flex-direction: column;
+
+  & > .top,
+  & > .main {
+    display: flex;
+    justify-content: space-between;
+  }
+}
