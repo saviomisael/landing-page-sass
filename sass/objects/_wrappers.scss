@@ -44,3 +44,23 @@
   row-gap: 26.2rem;
   padding: 0 10.5rem;
 }
+
+.footer-wrapper {
+  background-color: $color-white-dark;
+  padding: 6rem 8rem 2rem;
+
+  & > .main {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7rem;
+    border-bottom: 0.1rem solid $color-grey-light;
+  }
+
+  & > .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    column-gap: 3.5rem;
+  }
+}
