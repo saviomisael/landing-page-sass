@@ -1,0 +1,11 @@
+.thousand-sunny-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 2.6rem;
+
+  & > * {
+    font-size: 1.8rem;
+    color: $color-grey-dark-2;
+  }
+}
