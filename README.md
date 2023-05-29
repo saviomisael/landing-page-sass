@@ -1,6 +1,6 @@
 # Landing Page with SASS
 
-[Link to layout](https://www.figma.store/download/tour-and-travel-website-for-figma/) by Aryo Pamungkas.
+[Link to layout](https://www.figma.store/download/tour-and-travel-website-for-figma/) by Aryo Pamungkas. You can view the page in [this link](https://saviomisael.github.io/landing-page-sass/).
 
 # Table of contents
 
